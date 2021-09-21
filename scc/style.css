@@ -66,6 +66,16 @@ img {
   display: block;
   max-width: 100%;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
 /*-----------Header---------- */
 .header {
   background-color: rgba(255, 255, 255, 1);
@@ -440,15 +450,7 @@ img {
 /* .checkbox {
   visibility: hidden;
 } */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-}
+
 .form-btn {
   font-weight: 400;
   font-size: 16px;
