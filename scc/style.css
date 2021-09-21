@@ -290,14 +290,13 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .data-modal-close:hover,
-.data-modal-close:focus {
+/* {
   border-color: var(--accent-color);
   outline: none;
 } */
 
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+.data-modal-close:hover .modal-close-icon:hover,
+.data-modal-close:focus .modal-close-icon:focus {
   fill: var(--accent-color);
 }
 
