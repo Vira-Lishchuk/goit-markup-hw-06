@@ -295,8 +295,8 @@ img {
   outline: none;
 } */
 
-.data-modal-close:hover .modal-close-icon:hover,
-.data-modal-close:focus .modal-close-icon:focus {
+.modal-close-icon:hover,
+.modal-close-icon:focus {
   fill: var(--accent-color);
 }
 
